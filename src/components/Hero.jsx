@@ -1,7 +1,7 @@
 import React from "react";
 import me from "../assets/me.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import resume from "../assets/Mohd Mudassir Azmi.pdf";
+import resume from "../assets/Mohd_Mudassir_Azmi_Resume.pdf";
 import { motion } from "framer-motion";
 import Bubbles from "./Bubble";
 
@@ -111,7 +111,7 @@ const Hero = () => {
           >
             <a
               href={resume}
-              download="Mohd Mudassir Azmi_Resume.pdf"
+              download="Mohd_Mudassir_Azmi_Resume.pdf"
               className="px-6 py-3 bg-accent text-white rounded-md hover:bg-accent/80 transition"
             >
               Resume
